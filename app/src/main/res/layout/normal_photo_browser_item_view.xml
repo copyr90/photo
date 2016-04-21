@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_lay_out"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.SmoothImageView
+        android:id="@+id/photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <com.example.tester.new_2.MyProgress
+        android:id="@+id/progress_bar"
+        style="@style/BaseProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_3" />
+
+</RelativeLayout>

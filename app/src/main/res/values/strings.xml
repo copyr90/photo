@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">New_2</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="img_current_chose_num" formatted="false">%d/%d</string>
+    <string name="img_guide_num" formatted="false">%d/%d</string>
+    <string name="delete">删除</string>
+    <string name="insure_delete_photos">是否删除此照片?</string>
+    <string name="img_album_photo_num" formatted="false">(%d张)</string>
+    <string name="img_all_photo">所有图片</string>
+    <string name="img_chose_complete" formatted="false">导入 %d/%d</string>
+    <string name="img_max_select_toast" formatted="false">最多选择%d张图片</string>
+    <string name="crop_cache_limit_waring">当前内存过低，请清理一些后台程序的内存占用~</string>
+    <string name="crop_image_saving_image">保存图片</string>
+    <string name="crop_image_preparing_card">准备SD卡</string>
+    <string name="crop_image_no_storage_card">没有SD卡</string>
+    <string name="crop_image_not_enough_space">不够空间</string>
+    <string name="pick_photo_no_storage_error">未找到存储卡，无法存储照片！</string>
+    <string name="pick_photo_handle_webphoto_error">无法处理网络图片，请重新选择</string>
+    <string name="pick_photo_error">获取选择的图片失败，请重新选择</string>
+</resources>

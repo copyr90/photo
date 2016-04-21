@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.example.tester.new_2.ClipImageView
+        android:id="@+id/src_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <com.example.tester.new_2.ClipView
+        android:id="@+id/clipview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dp_67"
+        android:layout_alignParentBottom="true"
+        android:background="@null">
+
+        <Button
+            android:id="@+id/btn_discard"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_44"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:background="@drawable/crop_cancle" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_44"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_25"
+            android:background="@drawable/crop_save" />
+    </RelativeLayout>
+
+</RelativeLayout>
